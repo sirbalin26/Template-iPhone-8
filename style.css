@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body {
+  margin: 0;
+  background-color: gray;
+}
+
+.phone-container {
+  margin-top: 20px;
+  margin-left: 550px;
+  margin-rigth: 0px;
+  margin-bottom: 20px;
+  border: 2px solid lightgray;
+  width: 250px;
+  height: 500px;
+  border-radius: 25px;
+  background-color: #030303
+}
+
+.touch-id {
+  width: 35px;
+  height: 35px;
+  border: 2px solid lightgray;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: 105px;
+  cursor: pointer;
+  background-color: #000;
+}
+
+.touch-id:hover {
+  background-color: gray;
+}
+
+.line1 {
+  border: 1px solid lightgray;
+  width: 246px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.line2 {
+  border: 1px solid lightgray;
+  width: 246px;
+  margin-top: 415px;
+  margin-bottom: 0px;
+}
+
+.camera {
+  border: 2px solid lightgray;
+  border-radius: 25px;
+  width: 15px;
+  height : 15px;
+  margin-left: 115px;
+  margin-top: -30px;
+}
